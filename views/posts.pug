@@ -1,0 +1,14 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    title chain-board
+  body
+    h1 描き書き*しりとり*黒板
+    h2 新しい描き書き
+     canvas id="canvas-board"
+     form(method="post" action="/posts" id="canvas-board")
+      div
+        textarea(name="content" cols=40 rows=4)
+      div
+        button(type="submit") 描き書き

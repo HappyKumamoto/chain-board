@@ -1,0 +1,15 @@
+{
+  "name": "chain-board",
+  "version": "1.0.0",
+  "description": "chain-board",
+  "main": "index.js",
+  "repository": "git@github.com:HappyKumamoto/chain-board.git",
+  "author": "HappyKumamoto <zen.word+hub@gmail.com>",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pug": "2.0.4"
+  }
+}

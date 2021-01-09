@@ -3,12 +3,13 @@ html(lang="ja")
   head
     meta(charset="UTF-8")
     title chain-board
+    
+
   body
-    h1 描き書き*しりとり*黒板
-    h2 新しい描き書き
-     canvas id="canvas-board"
-     form(method="post" action="/posts" id="canvas-board")
+    h1 てがきけいじばん
+    h2 新しいかきこみ
+    form(method="post" action="/posts" id="canvas-board")
       div
-        textarea(name="content" cols=40 rows=4)
+        canvas(id="chain-board" width="300" height="200" style="border:1px solid#000;")
       div
-        button(type="submit") 描き書き
+        button(type="submit") はっぴょうする

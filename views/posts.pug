@@ -3,12 +3,16 @@ html(lang="ja")
   head
     meta(charset="UTF-8")
     title chain-board
+    style.
+      *{
+          text-align:center;
+      }
     
 
   body
     h1 てがきけいじばん
     h2 新しいかきこみ
-    form(method="post" action="/posts" id="canvas-board")
+    form(method="post" action="/posts")
       div
         canvas(id="chain-board" width="300" height="200" style="border:1px solid#000;")
       div

@@ -6,14 +6,20 @@ html(lang="ja")
     style.
       *{
           text-align:center;
-      }
-    
+          background-color:rgb(238, 232, 232);
+       }
+     canvas{
+       background-color:green;
+       color:white;
+       }
+       
+
 
   body
     h1 てがきけいじばん
     h2 新しいかきこみ
     form(method="post" action="/posts")
       div
-        canvas(id="chain-board" width="300" height="200" style="border:1px solid#000;")
+        canvas(id="chain-board" width="400" height="300" style="border:1px solid#000;")
       div
-        button(type="submit") はっぴょうする
+        button(type="submit") はっぴょうする        
